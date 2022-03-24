@@ -1,0 +1,26 @@
+ 
+
+     <b> HELLOOO </b>
+   <table>
+     <tr>
+       <th> ID </th>
+       <th> Name </th>
+       <th>"gender" </th>
+       <th> Age </th>
+       <th> Course </th>
+       <th> Date of Birth </th>
+       <th> Grade </th>
+       <th> Rating </th>
+     </tr>
+     <tr *ngFor="let student of students">
+       <td> {{student.studentID}} </td>
+       <td> {{student.studentName}} </td>
+       <td> {{student.gender}} </td>
+       <td> {{student.age}} </td>
+       <td> {{student.course}} </td>
+       <td> {{student.DOB}} </td>
+       <td> {{student.grade}} </td>
+       <td> {{student.rating}} </td>
+
+     </tr>
+   </table>
